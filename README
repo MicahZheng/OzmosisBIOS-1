@@ -36,7 +36,7 @@ Default Settings 1F8E0C02-58A9-4E34-AE22-2B63745FA101
  TimeOut                      || INTEGER || Time-out In Seconds
  DisableAtiInjection          || BOOLEAN || De/activate ATI GFX device property injection
  AtiFramebuffer               || STRING  || Name of the specific ATI framebuffer
- DisableNvidaInjection        || BOOLEAN || De/activate Nvidia GFX device property injection
+ DisableNvidiaInjection       || BOOLEAN || De/activate Nvidia GFX device property injection
  DisableIntelInjection        || BOOLEAN || De/activate Intel GFX device property injection
  DisableVoodooHda             || BOOLEAN || Disables loading VoodooHDA from firmware
  EnableVoodooHdaInternalSpdif || BOOLEAN || Enable/Disable onboard S/PDIF header when using VoodooHDA from firmware
@@ -129,7 +129,7 @@ Default Settings Example of Modifications on Defaults.plist
 !! WARNING DisableAtiInjection needs to be set to false to function !!
 
 // If DisableNvidaInjection NEEDS to be enabled, change second line bellow and set to true, then add both line in Defaults.plist
-<key>DisableNvidaInjection</key>
+<key>DisableNvidiaInjection</key>
 <false/>
 
 // If DisableIntelInjection NEEDS to be enabled, change second line bellow and set to true, then add both line in Defaults.plist
